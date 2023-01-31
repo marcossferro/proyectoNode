@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "author": "marcossferro",
   "description": "auth-basic",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "express-session": "^1.17.3",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.13.15",
+    "mysql2": "^3.1.0",
     "passport": "^0.4.1",
     "passport-google-oauth2": "^0.2.0",
     "passport-google-oauth20": "^2.0.0",
